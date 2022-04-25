@@ -1,0 +1,622 @@
+body {
+    overflow-x: hidden;
+}
+
+li {
+    list-style-type: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.small-container {
+    width: 96%;
+    margin: 0 auto
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+}
+
+h2 span {
+    text-decoration: underline deeppink;
+}
+
+h2 {
+    margin-bottom: 30px
+}
+
+/*  */
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent !important;
+    color: white !important;
+    z-index: 1000
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar .navbar-toggler {
+    background-color: white;
+}
+
+.navbar .log {
+    color: deeppink !important;
+}
+
+.navbar ul li.search {
+    position: relative
+}
+
+.navbar ul form {
+    position: absolute;
+    width: 250px;
+    padding: 5px;
+    background-color: white;
+    right: -30px;
+    display: none;
+}
+
+.navbar ul form input {
+    padding: 5px 10px 5px 5px;
+    background-color: #DDD;
+    width: 100%;
+    border: 1px solid #737272;
+}
+
+/* header */
+
+header {
+    position: relative
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+}
+
+header .content {
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+}
+
+header .carousel-inner, header .carousel-item {
+    height: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 7
+}
+
+header .content > div:first-of-type {
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+header .content > div:first-of-type h1 {
+    margin-bottom: 20px
+}
+
+header .content {
+    background-color: rgba(0,0,0, .3);
+    width: 100%;
+    height: 100%;
+}
+
+header .content a {
+    width: 170px;
+    border: 2px solid deeppink;
+    margin-top: 30px;
+    text-align: right;
+    color: white;
+}
+
+header .content a i {
+    padding: 5px 15px;
+    color: darkolivegreen;
+    background-color: deeppink;
+}
+
+header .content a span {
+    margin-right: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 85%;
+    height: 40px;
+    width: 60px;
+    line-height: 40px;
+    background-color: white;
+}
+
+header .carousel-control-next i, header .carousel-control-prev i {
+    font-size: 22px;
+    color: darkolivegreen;
+}
+
+header .carousel-control-next {
+    background-color: deeppink;
+    top: 77%;
+}
+
+header .carousel-control-prev {
+    position: absolute;
+    left: auto;
+}
+
+/* about */
+
+.about {
+    padding: 50px 0
+}
+
+.about .img {
+    width: 85%;
+}
+
+.about .img img{
+    width: 100%;
+    height: auto;
+}
+
+.about .row > .col-lg-6:first-of-type {
+    position: relative;
+}
+
+.about .about-child {
+    width: 70%
+}
+
+.about .about-child > p:first-of-type {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about  a {
+    width: 170px;
+    border: 2px solid deeppink;
+    margin-top: 30px;
+    text-align: left;
+    color: darkolivegreen;
+    float: right;
+}
+
+.about a i {
+    padding: 5px 15px;
+    color: darkolivegreen;
+    background-color: deeppink
+}
+
+.about a span {
+    margin-left: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
+
+.shop {
+    margin-bottom: 50px
+}
+
+.shop .container {
+    overflow: hidden
+}
+
+.shop .shop-child {
+    background-color: #fae1d4;
+    padding: 60px 0;
+}
+
+.shop img {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 40px
+}
+
+.shop .col-lg-4 > div {
+    width: 100%;
+    height: 100%;
+}
+
+.shop .link {
+    border: 3px solid deeppink;
+    width: 160px;
+    float: right;
+}
+
+.shop .row a {
+    color: darkolivegreen;
+}
+
+.shop .row a:hover {
+    color: deeppink;
+}
+
+.shop .container > a {
+    width: 170px;
+    border: 2px solid deeppink;
+    margin-top: 30px;
+    text-align: left;
+    color: darkolivegreen;
+    float: right;
+}
+
+.shop .container > a i {
+    padding: 5px 15px;
+    color: darkolivegreen;
+    background-color: deeppink
+}
+
+.shop .container > a span {
+    margin-left: 22px;
+    position: relative;
+    bottom: 8px;
+}
+
+/* FAQs */
+
+.faqs .faqs-child {
+    padding: 120px 0;
+    background-color: #151201;
+}
+
+
+.faqs a {
+    color: black;
+}
+
+.faqs .col-lg-4 {
+    position: relative;
+    height: 300px;
+}
+
+.faqs .col-lg-4:first-of-type, .faqs .col-lg-4:last-of-type {
+    bottom: 60px
+}
+
+.faqs .col-lg-4:nth-of-type(2) {
+    top: 60px;
+}
+
+.faqs .col-lg-4 > div {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.faqs .col-lg-4 > div .yellow-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 226, 91, .91);
+    opacity: 0;
+}
+
+.faqs .col-lg-4 > div .yellow-overlay p {
+    text-align: center;
+    font-size: 25px
+}
+
+.faqs .col-lg-4 > div:hover .yellow-overlay {
+    opacity: 1
+}
+
+.faqs .yellow-overlay {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* subscribe */
+
+.subscribe {
+    padding: 50px 0;
+    text-decoration: wavy;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: #fae1d4;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.subscribe-child {
+    background-color: #fae1d4;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subscribe form input{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.subscribe form input[type="submit"] {
+    text-align: center;
+    border: none;
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+
+.design .design-child {
+    background-color: #fae1d4;
+    padding: 50px 0;
+    color: white;
+}
+
+.design .container {
+    overflow: hidden;
+}
+
+.design img {
+    width: 130px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.design .row {
+    overflow: hidden
+}
+
+.design .row:first-of-type {
+    margin-bottom: 40px;
+}
+
+/* footer*/
+
+footer {
+    background-color: #1b1b1a;
+    color: white;
+    padding-top: 30px
+}
+
+footer .container {
+    overflow: hidden;
+}
+
+footer .container .item p{
+    width: 90%;
+    line-height: 1.8;
+}
+
+footer .logo {
+    color: white;
+}
+
+footer .container > .row:first-of-type {
+    padding: 25px 0
+}
+
+footer .col-lg-9 {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+footer .col-lg-9 span {
+    position: relative;
+    bottom: 5px;
+}
+
+footer .col-lg-9 i {
+    margin-right: 20px;
+}
+
+footer .item h4 {
+    margin-bottom: 30px
+}
+
+footer ul {
+    padding-left: 35px
+}
+
+footer ul li {
+    margin: 10px 0;
+    list-style-type: square;
+    color: deeppink;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a:hover {
+    color: deeppink;
+}
+
+footer ul.social-media {
+    overflow: hidden;
+    float: left;
+    margin: 30px 0
+}
+
+footer ul.social-media li {
+    float: right;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+footer form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+footer form input[type="submit"] {
+    border: none;
+    background-color: deeppink;
+    height: 30px;
+    width: 120px;
+}
+
+footer .copyright {
+    clear: both;
+    text-align: center;
+    border-top: 1px solid;
+    padding: 10px 0;
+}
+
+footer .copyright p {
+    margin-bottom: 0;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+    /* navbar */
+    
+    .navbar ul {
+        background-color: white;
+        padding: 10px 20px;
+    }
+    .navbar ul li a {
+        color: darkviolet !important;
+    }
+    .navbar ul li a:hover {
+        color: deeppink !important;
+    }
+    .navbar ul form {
+        position: static;
+        width: 100%;
+    }
+    
+    /* about */
+    
+    .about .img {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30px
+    }
+    .about .f-bg,
+    .about .s-bg {
+        display: none;
+    }
+    .about .about-child {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    /* service */
+    
+    .services .col-lg-4 {
+        margin-bottom: 30px
+    }
+    
+    /* FAQs */
+    
+    .faqs .col-lg-4 {
+        position: static;
+        margin-bottom: 25px
+    }
+    
+    /* subscribe */
+    
+    .subscribe-child {
+        background-image: none;
+    }
+    
+    /* footer */
+    
+    footer .logo {
+        margin-bottom: 30px;
+        display: block;
+    }
+    footer .container > .row:nth-of-type(2) > div {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    /* header */
+    
+    header h1 {
+        font-size: 35px;
+    }
+    
+    /* about */
+    
+    .about .img,
+    .about .about-child {
+        width: 75%;
+    }
+    
+    /* services */
+    
+    .services img {
+        height: auto
+    }
+    
+    /* footer */
+    
+    footer .row > .col-lg-9 {
+        text-align: left;
+        padding-left: 20px;
+    }
+    footer .row > .col-lg-9 > div > div {
+        margin: 15px 0;
+    }
+    footer .row > .col-lg-9 > div > div i {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* about */
+    
+    .about .img,
+    .about .about-child {
+        width: 90%;
+    }
+}
+.links a{
+    font-size: x-large;
+    background-color: gold;
+}
+
+   
